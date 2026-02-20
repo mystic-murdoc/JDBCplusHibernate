@@ -3,7 +3,7 @@ package jm.task.core.jdbc.util;
 import java.sql.*;
 
 public class Util {
-    // реализуйте настройку соединения с БД
+
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/testdb";
     private static final String USER = "root";
     private static final String PASSWORD = "";
