@@ -7,6 +7,7 @@ public class Util {
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/testdb";
     private static final String USER = "root";
     private static final String PASSWORD = "";
+    private Connection connection = Util.getConnection();
 
     public static Connection getConnection() {
         try {
